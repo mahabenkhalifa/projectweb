@@ -276,8 +276,8 @@
     text-align: center;
 }
 #main__img{
-    height:80%;
-    width: 80%;
+    height:30%;
+    width: 30%;
 }
 /*mobile responsive*/
 @media screen and (max-width:768px) {
