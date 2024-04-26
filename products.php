@@ -10,7 +10,7 @@
 <body>
     
      <!--Navbar section-->
-     <nav class="navbar">
+    <nav class="navbar">
         <div class="navbar__container">
             <a src="images/makeup.png" id="navbar__logo">Makeup Corner</a>
             <div class="navbar__toggle" id="mobile-menu">
@@ -20,16 +20,16 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Home</a>
+                    <a href="/mahatou" class="navbar__links">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/tech.php" class="navbar__links">Tech</a>
+                    <a href="/mahatou/tech.php" class="navbar__links">Tech</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/products.php" class="navbar__links">Products</a>
+                    <a href="/mahatou/products.php" class="navbar__links">Products</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="/SignUp.php" class="button">Sign up</a>
+                    <a href="/mahatou/SignUp.php" class="button">Sign up</a>
                 </li>
             </ul>
         </div>

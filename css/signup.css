@@ -1,0 +1,46 @@
+header {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+form {
+   width: 300px;
+   margin: 0 auto;
+}
+
+.field {
+   margin-bottom: 20px;
+}
+
+label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.btn {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.links {
+   margin-top: 20px;
+}
+
+.links a {
+   color: #007bff;
+   text-decoration: none;
+}

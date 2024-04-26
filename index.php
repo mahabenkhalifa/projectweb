@@ -22,23 +22,23 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/Home.php" class="navbar__links">Home</a>
+                    <a href="/mahatou" class="navbar__links">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/tech.php" class="navbar__links">Tech</a>
+                    <a href="/mahatou/tech.php" class="navbar__links">Tech</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/products.php" class="navbar__links">Products</a>
+                    <a href="/mahatou/products.php" class="navbar__links">Products</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="/SignUp.php" class="button">Sign up</a>
+                    <a href="/mahatou/SignUp.php" class="button">Sign up</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!---hero section-->
-    <div class="main">
+    <div class="main" style="text-align: center;">
         <div class="main__container">
             <div class="main__content">
               <h1> Welcome To Our Beauty Zone</h1> 
@@ -46,7 +46,7 @@
               <p>The best products with the best prices.</p>
               <button class="main__btn"><a href="/">Get started</a></button>
             </div>
-            <div class="main__img--container"> 
+            <div class="main__img--container" style="margin-top:10%;"> 
                 <img src="images/pic1.svg.svg" alt="pic" id="main__img">
             </div>
         </div>
@@ -73,7 +73,7 @@
     
 
     <!--Footer Section-->
-    <div class="footer__container">
+    <div class="footer__container" style="margin-top:10%;">
         <div class="footer__links">
             <div class="footer__link--wrapper">
                 <div class="footer__link--items">

@@ -20,21 +20,22 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Home</a>
+                    <a href="/mahatou" class="navbar__links">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/tech.php" class="navbar__links">Tech</a>
+                    <a href="/mahatou/tech.php" class="navbar__links">Tech</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/products.php" class="navbar__links">Products</a>
+                    <a href="/mahatou/products.php" class="navbar__links">Products</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="/SignUp.php" class="button">Sign up</a>
+                    <a href="/mahatou/SignUp.php" class="button">Sign up</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    
         <div>
             <h1>About Page</h1>
             <p>Welcome to the About page of Makeup Corner. Here you can learn more about our company and our mission.</p>

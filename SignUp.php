@@ -1,3 +1,6 @@
+<?php 
+    include './php/connect_db.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,37 +10,44 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
     </style>
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="regist.css">
     <title>Sign Up in Makeup Corner</title>
 </head>
 <body>
+
+ <!--Navbar section-->
+ <nav class="navbar">
+        <div class="navbar__container">
+            <a src="images/makeup.png" id="navbar__logo">Makeup Corner</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/mahatou" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/mahatou/tech.php" class="navbar__links">Tech</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/mahatou/products.php" class="navbar__links">Products</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/mahatou/SignUp.php" class="button">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
     <div class="container">
         <div class="box from-box">
 
-        <?php 
-          include("php/config.php");
-          if(isset($_POST['submit'])){
-            $username = $_POST['username'];
-            $email = $_POST['email'];
-            $age = $_POST['age'];
-            $password = $_POST['password'];
-
-            //VERIFY THE MAIL
-            $verify_query = mysqli_query($con,"SELECT Email FROM users WHERE Email='$email'");
-            if(mysqli_num_rows($verify_query) != 0 ){
-               echo "<div class='message'>
-                          <p>This email is used, Try another one please!</p>
-                     </div> <br>";
-               echo "<a href='javascript:self.history.back()'><button class='btn'>Go back</button></a>";
-            }
-            else{
-               mysqli_query($con, "INSERT INTO users (username, Email, Age, Password) VALUES ('$username','$email','$age','$password')") or die(mysqli_error($con));
-               echo "<div class='message'>
-                          <p>Registration Successful!</p>
-                     </div>";
-            }
-          }
-        ?>
 
         <header>Sign Up</header>
         <form action="" method="post">
