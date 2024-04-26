@@ -31,7 +31,7 @@
                     <a href="/products.php" class="navbar__links">Products</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="/Sign up.php" class="button">Sign up</a>
+                    <a href="/SignUp.php" class="button">Sign up</a>
                 </li>
             </ul>
         </div>

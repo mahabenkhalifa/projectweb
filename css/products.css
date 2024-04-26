@@ -1,0 +1,66 @@
+.banner_img {
+   height: 400px;
+   background: url(../images/accessories-blog_1024x1024.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.banner_img_op {
+   width: 100%;
+   height: 400px;
+   background: rgba(0, 0, 0, 0.712);
+   fill-opacity: 0.5;
+}
+.banner_img_op h1 {
+   color: white;
+   font-size: 50px;
+   text-align: center;
+   padding-top: 150px;
+}
+
+.container {
+   display: table;
+   margin: auto;
+}
+
+.product {
+   text-align: center;
+   margin: auto;
+   display: inline-flex;
+   margin-top: 10%;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.product img {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 50%;
+   margin-bottom: 10px;
+}
+
+.product h3 {
+   font-size: 20px;
+   margin-bottom: 5px;
+}
+
+.product p {
+   font-size: 16px;
+   margin-bottom: 5px;
+}
+
+.product button {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.product button:hover {
+   background-color: #0056b3;
+}
